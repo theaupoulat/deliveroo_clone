@@ -55,6 +55,8 @@ code {
 	}
 
 	p {
+		display: inline-block;
+		max-width: 900px;
 		font-size: 19px;
 		line-height: 28px;
 		color: #868a8a;
