@@ -113,14 +113,20 @@ code {
 
 .Cart button {
   width: 100%;
-  height: 30px;
+  height: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   background-color: #5acdbd;
   font-size: 16px;
   line-height: 16px;
   color: white;
   font-weight: 600;
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin-bottom: 15px;
   border-radius: 7px;
+  border-width: 2px;
+  border-style: none;
 }
 
 .Cart button.disabled {
